@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,13 +16,37 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Hamburguesa.png" translatesAutoresizingMaskIntoConstraints="NO" id="gai-jK-vGJ">
+                                <rect key="frame" x="150" y="143" width="300" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="QKi-Sr-w58"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Hamburguesas del Mundo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x9o-C3-n4Z">
+                                <rect key="frame" x="149" y="60" width="303" height="34"/>
+                                <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="22"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="x9o-C3-n4Z" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="2q7-uD-kz5"/>
+                            <constraint firstItem="x9o-C3-n4Z" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-229.5" id="BcO-Oa-Mwd"/>
+                            <constraint firstItem="gai-jK-vGJ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-7" id="Jaw-Ft-L67"/>
+                            <constraint firstItem="gai-jK-vGJ" firstAttribute="top" secondItem="x9o-C3-n4Z" secondAttribute="bottom" constant="62" id="Nue-fZ-JIc"/>
+                            <constraint firstItem="gai-jK-vGJ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ij3-5C-9MB"/>
+                            <constraint firstItem="x9o-C3-n4Z" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="40" id="rst-su-x1g"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="69" y="394"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Hamburguesa.png" width="1375" height="1394"/>
+    </resources>
 </document>
