@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var LblPais: UILabel!
     @IBOutlet weak var LblHamburguesa: UILabel!
-    
+     
     let Paises = ColeccionDePaises()
     let Hamburguesas = ColeccionDeHamburguesas()
     let colores = Colores()

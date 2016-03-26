@@ -13,8 +13,7 @@
 		8B2E8EEC1CA6D9AF005FAA04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B2E8EEB1CA6D9AF005FAA04 /* Assets.xcassets */; };
 		8B2E8EEF1CA6D9AF005FAA04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B2E8EED1CA6D9AF005FAA04 /* LaunchScreen.storyboard */; };
 		8B2E8EF71CA6D9C6005FAA04 /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2E8EF61CA6D9C6005FAA04 /* Datos.swift */; };
-		8B2E8EFA1CA6DE7F005FAA04 /* Banderas.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B2E8EF81CA6DE7F005FAA04 /* Banderas.png */; };
-		8B2E8EFB1CA6DE7F005FAA04 /* Hamburguesa.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B2E8EF91CA6DE7F005FAA04 /* Hamburguesa.png */; };
+		8B2E8EFD1CA6F27C005FAA04 /* Hamburguesa.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B2E8EFC1CA6F27C005FAA04 /* Hamburguesa.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +25,7 @@
 		8B2E8EEE1CA6D9AF005FAA04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B2E8EF01CA6D9B0005FAA04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B2E8EF61CA6D9C6005FAA04 /* Datos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
-		8B2E8EF81CA6DE7F005FAA04 /* Banderas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Banderas.png; sourceTree = "<group>"; };
-		8B2E8EF91CA6DE7F005FAA04 /* Hamburguesa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hamburguesa.png; sourceTree = "<group>"; };
+		8B2E8EFC1CA6F27C005FAA04 /* Hamburguesa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hamburguesa.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +65,7 @@
 				8B2E8EED1CA6D9AF005FAA04 /* LaunchScreen.storyboard */,
 				8B2E8EF01CA6D9B0005FAA04 /* Info.plist */,
 				8B2E8EF61CA6D9C6005FAA04 /* Datos.swift */,
-				8B2E8EF81CA6DE7F005FAA04 /* Banderas.png */,
-				8B2E8EF91CA6DE7F005FAA04 /* Hamburguesa.png */,
+				8B2E8EFC1CA6F27C005FAA04 /* Hamburguesa.png */,
 			);
 			path = Hamburguesas;
 			sourceTree = "<group>";
@@ -134,9 +131,8 @@
 			files = (
 				8B2E8EEF1CA6D9AF005FAA04 /* LaunchScreen.storyboard in Resources */,
 				8B2E8EEC1CA6D9AF005FAA04 /* Assets.xcassets in Resources */,
+				8B2E8EFD1CA6F27C005FAA04 /* Hamburguesa.png in Resources */,
 				8B2E8EEA1CA6D9AF005FAA04 /* Main.storyboard in Resources */,
-				8B2E8EFB1CA6DE7F005FAA04 /* Hamburguesa.png in Resources */,
-				8B2E8EFA1CA6DE7F005FAA04 /* Banderas.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
